@@ -6,7 +6,7 @@ from kmp_search import kmp_search
 from rabin_karp_search import rabin_karp_search
 
 NUM_TESTS: Final = 200
-POSITIVE_SEARCH_STRING: Final = "систем"
+POSITIVE_SEARCH_STRING: Final = "данны"
 NEGATIVE_SEARCH_STRING: Final = "абракадабра"
 
 def get_text(file_name):
@@ -23,7 +23,7 @@ def perform_test(search_algo: str, text_name: str, is_positive: bool):
     result = timeit.timeit(call_str, number=NUM_TESTS, globals=globals())
     print(f"|   {text_name}   |  {pattern.lower()}  |   {result:.3f}  |")
 
-print("Results for KMP Search:")
+print("Results for Knut-Morris-Pratt Search:")
 print("|  Text Source  |  Scenario  |  Result  |")
 
 perform_test('kmp_search', 'article_1', is_positive=True)
@@ -45,5 +45,4 @@ perform_test('rabin_karp_search', 'article_1', is_positive=True)
 perform_test('rabin_karp_search', 'article_2', is_positive=True)
 perform_test('rabin_karp_search', 'article_1', is_positive=False)
 perform_test('rabin_karp_search', 'article_2', is_positive=False)
-
 
