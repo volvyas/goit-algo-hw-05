@@ -1,6 +1,7 @@
 Результати для алгоритму Кнут-Морріс-Прат:
 
 |  Text Source  |  Scenario  |  Result  |
+| :---------    | :--------  | :------  |
 |   article_1   |  positive  |   0.141  |
 |   article_2   |  positive  |   0.201  |
 |   article_1   |  negative  |   0.148  |
@@ -10,6 +11,7 @@
 Результати для алгоритму Боєра-Мура:
 
 |  Text Source  |  Scenario  |  Result  |
+| :---------    | :--------  | :------  |
 |   article_1   |  positive  |   0.084  |
 |   article_2   |  positive  |   0.117  |
 |   article_1   |  negative  |   0.049  |
@@ -19,6 +21,7 @@
 Результати для алгоритму Рабін-Карп:
 
 |  Text Source  |  Scenario  |  Result  |
+| :---------    | :--------  | :------  |
 |   article_1   |  positive  |   0.305  |
 |   article_2   |  positive  |   0.427  |
 |   article_1   |  negative  |   0.323  |
